@@ -1,0 +1,32 @@
+Momentum Server logfile: momServer.log
+
+EM Model generation from "Unequal_WilkinsonPD_lib:EM_Sim2_opt:emModel"
+  parameterNames = list("len1","w1","w2","Substrate","MeshDensity")
+  parameterValues = list("20","988.2000000000002","202.7000000000001","definedInState","20")
+  topLevel design name = "Unequal_WilkinsonPD_lib:Testing_EMCoopt:schematic"
+  instance name = "X1.em_data"
+  processID = "11664@CND1245K1B"
+  visible = TRUE
+Connected to external process by processID
+..handle = 29
+..pid = 11664@CND1245K1B
+..name = hpeesofsim
+Creating work design Unequal_WilkinsonPD_lib:Testing_EMCoopt:layout_hpeesofsim
+..new work design opened
+..inserting instance of Unequal_WilkinsonPD_lib:EM_Sim2_opt:layout
+..adding pins to the instance pins
+..copying port setup
+Successfully created the work design
+Starting EM simulation for design: Unequal_WilkinsonPD_lib:Testing_EMCoopt:layout_hpeesofsim
+  Contains instance of : Unequal_WilkinsonPD_lib:EM_Sim2_opt:layout
+  EM setup view name   : emSetup_hpeesofsim
+  EM model view name   : emModel
+..disable simulation log popup
+..simulation M120910163117 started
+..simulation M120910163117 ended
+EM simulation finished successfully
+..new data added to EM model view
+..deleting layout_hpeesofsim view for work design
+..deleting emSetup_hpeesofsim view for work design
+..deleting simulation directory for work design
+..sending DONE to parent

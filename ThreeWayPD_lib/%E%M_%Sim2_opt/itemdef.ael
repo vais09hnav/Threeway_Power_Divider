@@ -1,0 +1,4 @@
+create_item("EM_Sim2_opt","EM_Sim2_opt","X",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","EM_Sim2_opt","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","",0,NULL,0,
+create_parm("len1","len1",68608,"StdFormSet",-1,prm("StdForm","4.32")),
+create_parm("w1","w1",68608,"StdFormSet",-1,prm("StdForm","988.2")),
+create_parm("w2","w2",68608,"StdFormSet",-1,prm("StdForm","202.7")));

@@ -1,0 +1,80 @@
+<ADSWorkspace Revision="64" Version="100">
+    <Workspace Name="">
+        <Library Name="ads_behavioral" />
+        <Library Name="ads_common_cmps" />
+        <Library Name="ads_datacmps" />
+        <Library Name="ads_designs" />
+        <Library Name="ads_rflib" />
+        <Library Name="ads_schematic_layers" />
+        <Library Name="ads_simulation" />
+        <Library Name="ads_sources" />
+        <Library Name="ads_standard_layers" />
+        <Library Name="ads_textfonts" />
+        <Library Name="ads_tlines" />
+        <Library Name="adstechlib" />
+        <LibraryDefs Name="lib.defs" />
+        <Preferences Name="layout.prf" />
+        <Preferences Name="schematic.prf" />
+        <ConfigFile Name="de_sim.cfg" />
+        <ConfigFile Name="hpeesofsim.cfg" />
+        <Log Name="search_history.log" />
+        <Log Name="netlist.log" />
+        <Dataset Name="Ideal_PD.ds" />
+        <Dataset Name="ThreeWay_PD.ds" />
+        <ConfigFile Name="dds.cfg" />
+        <Dataset Name="PowerDivider1.ds" />
+        <Dataset Name="Before_sch_Opt.ds" />
+        <Dataset Name="TestBench.ds" />
+        <Preferences Name="Unequal_WilkinsonPD_lib_sch.prf" />
+        <Text Name="out.txt" />
+        <Log Name="readegs.log" />
+        <Dataset Name="EM_Sim_MomUW.ds" />
+        <Dataset Name="EM_Sim_MomUW_a.ds" />
+        <Dataset Name="Testing_EM.ds" />
+        <Dataset Name="EM_Sim1_MomUW.ds" />
+        <Dataset Name="EM_Sim1_MomUW_a.ds" />
+        <Dataset Name="EM_Sim2_MomUW.ds" />
+        <Dataset Name="EM_Sim2_MomUW_a.ds" />
+        <Dataset Name="Testing_EM1.ds" />
+        <Dataset Name="Testing_EM2.ds" />
+        <Dataset Name="EM_Sim2_opt_MomUW.ds" />
+        <Dataset Name="EM_Sim2_opt_MomUW_a.ds" />
+        <Library Name="empro_standard_layers" />
+        <Dataset Name="__simdata061239.ds" />
+        <Dataset Name="__simdata084244.ds" />
+        <Dataset Name="Testing_EMCoopt.ds" />
+        <Log Name="momServer.log" />
+        <Library Name="ThreeWayPD_lib" />
+        <Library Name="ads_bondwires" />
+        <ConfigFile Name="ads_desktop_lvs.cfg" />
+        <Folder Name="01_ReadMe">
+            <Cell Name="ThreeWayPD_lib:ReadMe" />
+        </Folder>
+        <Folder Name="02_Topology">
+            <Data_Display Name="Ideal_PD.dds" />
+            <Data_Display Name="ThreeWay_PD.dds" />
+            <Cell Name="ThreeWayPD_lib:Ideal_PD" />
+            <Cell Name="ThreeWayPD_lib:ThreeWay_PD" />
+        </Folder>
+        <Folder Name="03_Microstrip PD">
+            <Data_Display Name="EM_Sim1.dds" />
+            <Data_Display Name="EM_Sim2_opt.dds" />
+            <Data_Display Name="EM_Sim2.dds" />
+            <Cell Name="ThreeWayPD_lib:EM_Sim1" />
+            <Cell Name="ThreeWayPD_lib:EM_Sim2" />
+            <Cell Name="ThreeWayPD_lib:PowerDivider2" />
+            <Cell Name="ThreeWayPD_lib:EM_Sim2_opt" />
+            <Substrate Name="ThreeWayPD_lib:substrate1.subst" />
+        </Folder>
+        <Folder Name="04_Testing">
+            <Data_Display Name="TestBench.dds" />
+            <Data_Display Name="Testing_EM1.dds" />
+            <Data_Display Name="Testing_EM2.dds" />
+            <Cell Name="ThreeWayPD_lib:TestBench" />
+            <Cell Name="ThreeWayPD_lib:Testing_EM1" />
+            <Cell Name="ThreeWayPD_lib:Testing_EM2" />
+            <Cell Name="ThreeWayPD_lib:Testing_EMCoopt" />
+            <Data_Display Name="Testing_EMCoopt.dds" />
+        </Folder>
+    </Workspace>
+</ADSWorkspace>

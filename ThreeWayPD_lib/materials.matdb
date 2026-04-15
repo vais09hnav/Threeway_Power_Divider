@@ -1,0 +1,9 @@
+<!DOCTYPE Materials>
+<Materials>
+    <Conductors/>
+    <Dielectrics>
+        <Dielectric loss_type="1" mur_real="1" lowfreq="1 KHz" valuefreq="10.0 GHz" er_imag="" highfreq="1 THz" er_loss="0.0009" name="Rogers_RT_Duroid5880" er_real="2.20" mur_imag=""/>
+    </Dielectrics>
+    <Semiconductors/>
+    <roughness/>
+</Materials>

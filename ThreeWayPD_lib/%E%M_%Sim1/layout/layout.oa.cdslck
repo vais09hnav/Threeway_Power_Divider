@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      haris
+HostName                       HPPAVILION15
+ProcessIdentifier              19328
+ProcessCreationTime_UTC        1776224526
+ProcessCreationTime_Readable   Wed Apr 15 09:12:06 2026 India Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\haris\ThreeWayPD_wrk\ThreeWayPD_lib\%E%M_%Sim1\layout\layout.oa.cdslck
+TimeEditLocked                 Wed Apr 15 09:14:58 2026 India Standard Time
